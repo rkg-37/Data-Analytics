@@ -1,0 +1,15 @@
+﻿Access to safe drinking-water is essential to health, a basic human right and a component of effective policy for health protection. This is important as a health and development issue at a national, regional and local level. In some regions, it has been shown that investments in water supply and sanitation can yield a net economic benefit, since the reductions in adverse health effects and health care costs outweigh the costs of undertaking the interventions.
+Given a Dataset containing different features with respect to water quality. Build classifiers to classify water as potable i.e. drinkable by human or not, based on its quality. The dataset is provided to you. Do the following task.
+1. Create a dataframe from the dataset 
+2. Display all the features and display the target column also.
+3. Count the total records in the data set.
+4. Display the type of each column
+5. Plot the hardness feature of the dataset
+6. Find the mean sulphate present in different water samples collected.
+7. Fill the features having NULL with the mean value.
+8. Display the water samples where the ph is < 4 and chloramin is 5
+9. Mask the above objects having  ph feature value < 4 with its  
+10. Convert the target column values as Drinkable where value is 1 and non-drinkable where value is 0.
+11. Prepare 85% of the dataset as train selected randomly and remaining as test dataset.
+12. Build the classification model using both KNN and SVM. 
+13. Test the performance of both the models display the accuracy and print the classification report.
